@@ -3,6 +3,12 @@ package edu.lewis.cs.kylevbye;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.Disposable;
 
+/**
+ * This class encapsulates a Image's coordinates, point of rotation,
+ * dimensions, rotation angle, minimum zoom to be shown, and scale.
+ * @author	Kyle V Bye
+ * @see	com.badlogic.gdx.utils.Disposable
+ */
 public class Image implements Disposable {
 		
 	///
@@ -64,7 +70,7 @@ public class Image implements Disposable {
 	}
 	
 	///
-	///	Deconstructors
+	///	Destructor
 	///
 	
 	public void dispose() {
